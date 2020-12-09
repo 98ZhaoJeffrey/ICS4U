@@ -1,9 +1,9 @@
-public class Person {
+public class Leader {
     final private String name;
     private int age;
     final private String countryName;
 
-    public Person(String name, int age, String countryName){
+    public Leader(String name, int age, String countryName){
         if(age < 0){
             throw new IllegalArgumentException("A person cannot have a negative age");
         }

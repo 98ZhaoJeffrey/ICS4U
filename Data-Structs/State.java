@@ -1,18 +1,16 @@
-import java.util.ArrayList;
-
 public class State extends Territory{
-    private ArrayList<City> cities;
+    private City[] cities;
     private City capital;
     private Country isApartOf;
 
-    public State(String name, Person leader, String currency, String continent, String code, String demonym, int population, int gdp, int area, ArrayList<City> cities, City capital, Country isApartOf){
-        super(name, leader, currency, continent,code, demonym, population, gdp, area);
+    public State(String name, Leader leader, String continent, String code, String demonym, int population, int gdp, int area, City[] cities, City capital, Country isApartOf){
+        super(name, leader, continent,code, demonym, population, gdp, area);
         this.cities = cities;
         this.capital = capital;
         this.isApartOf = isApartOf;
     }
 
-    public ArrayList<City> getCities() {
+    public City[] getCities() {
         return this.cities;
     }
 
@@ -32,8 +30,12 @@ public class State extends Territory{
         this.isApartOf = isApartOf;
     }
 
-    public void collectStateTaxes(){
+    public void collectTax(){
         System.out.printf("%s's government is collecting state taxes from their citzens", this);
     }
-   
+
+    public void useTax(){
+        System.out.printf("%s's government is building new public state universities with tax money", this);
+    }
+       
 }

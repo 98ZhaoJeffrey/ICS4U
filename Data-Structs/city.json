@@ -1,0 +1,59 @@
+[
+    {
+    "name": "Barrie",
+    "population": "141,434",
+    "area": "99.04",
+    "currency": "CAD"
+    },
+    {
+        Brampton	593,638	266.36
+    },
+    {
+        Burlington	183,314	185.66
+    },	
+    {
+        Guelph	131,794	87.22
+    },	
+    {
+        Hamilton 536,917 1,117.29
+    },
+    {
+        Kingston	123,798	451.19
+    },	
+    {
+        North Bay 51,553	319.11
+    },	
+    {
+        London	383,822	420.35
+    },
+    {
+        Markham	328,966	212.35
+    },
+    {
+        Mississauga	721,599	292.43
+    },
+    {
+        Niagara Falls	88,071	209.73
+    },
+    {
+        Ottawa	934,243	2,790.30
+    },
+    {
+        Pickering	91,771	231.55
+    },
+    {
+        Thunder Bay	107,909	328.36
+    },
+    {
+        Toronto	2,731,571	630.20
+    },
+    {
+        Vaughan	306,233		273.56
+    },	
+    {
+        Waterloo 104,986 64.02
+    },
+    {
+        Windsor	217,188		146.38	
+    }
+]

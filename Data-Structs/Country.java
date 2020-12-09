@@ -1,17 +1,16 @@
-//package Data-Structs;
-import java.util.ArrayList;
-
 public class Country extends Territory{
-    private ArrayList<State> states;
+    private State[] states;
     private City capital;
+    private String currency;
 
-    public Country(String name, Person leader, String currency, String continent, String code, String demonym, int population, int gdp, int area, ArrayList<State> states, City capital) {
-        super(name, leader, currency, continent,code, demonym, population, gdp, area);
+    public Country(String name, String currency, Leader leader, String continent, String code, String demonym, int population, int gdp, int area, State[] states, City capital) {
+        super(name, leader, continent, code, demonym, population, gdp, area);
         this.states = states;
         this.capital = capital;
+        this.currency = currency;
     }
 
-    public ArrayList<State> getStates(){
+    public State[] getStates(){
         return this.states;
     }
 
@@ -19,12 +18,23 @@ public class Country extends Territory{
         this.capital = capital;
     }
 
+    public String getCurrency(){
+        return this.currency;
+    }
+    public void setCurrency(String currency){
+        this.currency = currency;
+    }
+
     public City getCapital(){
         return this.capital;
     }
 
-    public void collectFederalTaxes(){
+    public void collectTax(){
         System.out.printf("%s's government is collecting federal taxes from their citzens", this);
+    }
+
+    public void useTax(){
+        System.out.printf("%s's government is spending money to build oil pipelines", this);
     }
 
 }

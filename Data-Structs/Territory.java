@@ -1,10 +1,6 @@
-import java.util.Objects;
-
-//package Data-Structs;
-public class Territory {
+public abstract class Territory {
     final public String name;
-    private Person leader;
-    final public String currency;
+    private Leader leader;
     private String language;
     final public String continent;
     final public String code;
@@ -13,10 +9,9 @@ public class Territory {
     private int gdp;
     private int area;
 
-    public Territory(String name, Person leader, String currency, String continent, String code, String demonym, int population, int gdp, int area){
+    public Territory(String name, Leader leader, String continent, String code, String demonym, int population, int gdp, int area){
         this.name = name;
         this.leader = leader;
-        this.currency = currency;
         this.continent = continent;
         this.code = code;
         this.demonym = demonym;
@@ -25,11 +20,11 @@ public class Territory {
         this.area = area;
     }
 
-    public Person getLeader() {
+    public Leader getLeader() {
         return this.leader;
     }
 
-    public void setLeader(Person leader) {
+    public void setLeader(Leader leader) {
         this.leader = leader;
     }
 
@@ -81,6 +76,10 @@ public class Territory {
         }
         this.area = area;
     }
+
+    abstract void collectTax();
+
+    abstract void useTax();
 
     @Override
     public String toString() {
