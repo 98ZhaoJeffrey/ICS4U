@@ -8,13 +8,13 @@ If you are running Java 11 or above, simply run:
 java Main
 ```
 
-Otherwhise, run:
+Otherwhise, first run:
 
 ```Java
 javac Main.java
 ```
 
-first to create the Java classes, then run 
+to create the Java classes, then run 
 
 ```Java
 java Main
