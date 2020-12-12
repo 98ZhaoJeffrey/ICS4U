@@ -2,100 +2,118 @@
     {
         "name": "United States of America",
         "code": "USA",
+        "leader": "Donald Trump",
         "capital": "Washington, D.C.",
         "continent": "Northern America",
         "population": 323947000,
         "demonym": "American",
         "area": 9629091.0,
-        "cuurency": "USD",
-        "languages": "English"
+        "currency": "USD",
+        "language": "English",
+        "gdp": 20.807
     },
     {
         "name": "China",
         "code": "CHN",
+        "leader": "Xi Jinping",
         "capital": "Beijing",
         "continent": "Asia",
         "population": 1377422166,
         "demonym": "Chinese",
         "area": 9640011.0,
-        "cuurency": "CNY",
-        "languages": "Chinese"
+        "currency": "CNY",
+        "language": "Chinese",
+        "gdp": 24.2
     },
     {
         "name": "France",
         "code": "FRA",
+        "leader": "Emmanuel Macron",
         "capital": "Paris",
         "continent": "Europe",
         "population": 66710000,
         "demonym": "French",
         "area": 640679.0,
-        "cuurency": "EUR",
-        "languages":"French"
+        "currency": "EUR",
+        "language":"French",
+        "gdp": 2.954
     },
     {
         "name": "Canada",
         "code": "CAN",
+        "leader": "Justin Trudeau",
         "capital": "Ottawa",
         "continent": "Northern America",
         "population": 36155487,
         "demonym": "Canadian",
         "area": 9984670.0,
-        "cuurency": "CAD",
-        "languages": "English"
+        "currency": "CAD",
+        "language": "English",
+        "gdp": 1.971
     },
     {
         "name": "Russian Federation",
         "code": "RUS",
+        "leader": "Vladimir Putin",
         "capital": "Moscow",
         "continent": "Europe",
         "population": 146599183,
         "demonym": "Russian",
         "area": 17124442.0,
-        "cuurency": "RUB",
-        "languages": "Russian"
+        "currency": "RUB",
+        "language": "Russian",
+        "gdp": 4.135
     },
     {
         "name": "Saudi Arabia",
         "code": "SAU",
+        "leader": "Salman bin Abdulaziz Al Saud",
         "capital": "Riyadh",
         "continent": "Asia",
         "population": 32248200,
         "demonym": "Saudi Arabian",
         "area": 2149690.0,
-        "cuurency": "SAR",
-        "languages": "Arabic" 
+        "currency": "SAR",
+        "language": "Arabic",
+        "gdp": 1.924 
     },
     {
         "name": "Iraq",        
         "code": "IRQ",
+        "leader": "Barham Salih",
         "capital": "Baghdad",
         "continent": "Asia",
         "population": 37883543,
         "demonym": "Iraqi",
         "area": 438317.0,
-        "cuurency": "IQD",
-        "languages": "Arabic"
+        "currency": "IQD",
+        "language": "Arabic",
+        "gdp": 0.250070
     },
     {
         "name": "Sudan",
         "code": "SDN",
+        "leader": "Abdalla Hamdok",
         "capital": "Khartoum",
         "continent": "Africa",
         "population": 39598700,
         "demonym": "Sudanese",
         "area": 1886068.0,
-        "cuurency": "SDG",
-        "languages": "Arabic"
+        "currency": "SDG",
+        "language": "Arabic",
+        "gdp": 0.033903
     },
     {
         "name": "Mexico",
         "code": "MEX",
+        "leader": "Andrés Manuel López Obrador",
         "capital": "Mexico City",
         "continent": "Northern America",
         "population": 122273473,
         "demonym": "Mexican",
         "area": 1964375.0,
-        "cuurency": "MXN",
-        "languages": "Spanish"  
+        "currency": "MXN",
+        "language": "Spanish",
+        "gdp": 2.715   
     }
 ]

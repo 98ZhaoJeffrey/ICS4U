@@ -1,0 +1,146 @@
+[
+    {
+        "name": "Barrie",
+        "leader": "Jeff Lehman",
+        "demonym": "Barrian",
+        "population": 141434,
+        "area": 99.04,
+        "gdp": 0.007786
+    },
+    {
+        "name": "Brampton",
+        "leader": "Patrick Brown",
+        "demonym": "Bramptonian",
+        "population": 593638,
+        "area": 266.36,
+        "gdp": 0.0345
+    },
+    {
+        "name": "Burlington",
+        "leader": "Marianne Meed Ward",
+        "demonym": "Burlingtonian",
+        "population": 183314,
+        "area":	185.66,
+        "gdp": ""
+    },	
+    {
+        "name": "Guelph",
+        "leader": "Jeff Lehman",
+        "demonym": "Guelphite",
+        "population": 131794,
+        "area": 87.22,
+        "gdp": 0.0106
+    },	
+    {
+        "name": "Hamilton",
+        "leader": "Fred Eisenberger",
+        "demonym": "Hamiltonian",
+        "population": 536917,
+        "area": 1117.29,
+        "gdp": 0.034673
+    },
+    {
+        "name": "Kingston",
+        "leader": "Bryan Paterson",
+        "demonym": "Kingstonian",
+        "population": 123798,	
+        "area": 451.19,
+        "gdp": 0.008927
+    },	
+    {
+        "name": "North Bay",
+        "leader": "Al McDonald",
+        "demonym": "North Bayite",
+        "population": 51553,
+        "area": 319.11,
+        "gdp": ""
+    },	
+    {
+        "name": "London",
+        "leader": "Ed Holder",
+        "demonym": "Londoner",
+        "population": 383822,	
+        "area": 420.35,
+        "gdp": 0.025536
+    },
+    {
+        "name": "Markham",
+        "leader": "Frank Scarpitti",
+        "demonym": "Markhamite",
+        "population": 328966,
+        "area": 212.35,
+        "gdp": ""
+    },
+    {
+        "name": "Mississauga",
+        "leader": "Bonnie Crombie",
+        "demonym": "Mississaugan",
+        "population": 721599,
+        "area": 292.43,
+        "gdp": ""
+    },
+    {
+        "name": "Niagara Falls",
+        "leader": "Jim Diodati",
+        "demonym": "Niagarans",
+        "population": 88071,	
+        "area": 209.73,
+        "gdp": ""
+    },
+    {
+        "name": "Ottawa",
+        "leader": "Jim Watson",
+        "demonym": "Ottawan",
+        "population": 934243,	
+        "area": 2790.30,
+        "gdp": 0.080338
+    },
+    {
+        "name": "Pickering",
+        "leader": "David Ryan",
+        "demonym": "Pickeringite",
+        "population": "91771",
+        "area": "231.55",
+        "gdp": ""
+    },
+    {
+        "name": "Thunder Bay",
+        "leader": "Bill Mauro",
+        "demonym": "Thunder Bayer",
+        "population": "107909",
+        "area": "328.36",
+        "gdp": "0.006148"
+    },
+    {
+        "name":"Toronto",
+        "leader": "John Tory",
+        "demonym": "Torontonian",
+        "population": "2731571",
+        "area": "630.20",
+        "gdp":"0.405156"
+    },
+    {
+        "name": "Vaughan",
+        "leader": "Maurizio Bevilacqua",
+        "demonym": "",
+        "population": "306233",
+        "area": "273.56",
+        "gdp":"0.0206"
+    },	
+    {
+        "name": "Waterloo",
+        "leader": "Dave Jaworsky",
+        "demonym": "Waterluvian",
+         "population": "104986",
+         "area": "64.02",
+         "gdp": "0.029273"
+    },
+    {
+        "name": "Windsor",
+        "leader": "Drew Dilkens",
+        "demonym": "Windsorite",
+        "population": "217188",
+        "area": "146.38",
+        "gdp": "0.015649"	
+    }
+]
