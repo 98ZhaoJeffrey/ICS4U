@@ -21,7 +21,7 @@
         "demonym": "Burlingtonian",
         "population": 183314,
         "area":	185.66,
-        "gdp": ""
+        "gdp": 0.0
     },	
     {
         "name": "Guelph",
@@ -53,7 +53,7 @@
         "demonym": "North Bayite",
         "population": 51553,
         "area": 319.11,
-        "gdp": ""
+        "gdp": 0.0
     },	
     {
         "name": "London",
@@ -69,7 +69,7 @@
         "demonym": "Markhamite",
         "population": 328966,
         "area": 212.35,
-        "gdp": ""
+        "gdp": 0.0
     },
     {
         "name": "Mississauga",
@@ -77,7 +77,7 @@
         "demonym": "Mississaugan",
         "population": 721599,
         "area": 292.43,
-        "gdp": ""
+        "gdp": 0.0
     },
     {
         "name": "Niagara Falls",
@@ -85,7 +85,7 @@
         "demonym": "Niagarans",
         "population": 88071,	
         "area": 209.73,
-        "gdp": ""
+        "gdp": 0.0
     },
     {
         "name": "Ottawa",
@@ -99,48 +99,48 @@
         "name": "Pickering",
         "leader": "David Ryan",
         "demonym": "Pickeringite",
-        "population": "91771",
-        "area": "231.55",
-        "gdp": ""
+        "population": 91771,
+        "area": 231.55,
+        "gdp": 0.0
     },
     {
         "name": "Thunder Bay",
         "leader": "Bill Mauro",
         "demonym": "Thunder Bayer",
-        "population": "107909",
-        "area": "328.36",
-        "gdp": "0.006148"
+        "population": 107909,
+        "area": 328.36,
+        "gdp": 0.006148
     },
     {
         "name":"Toronto",
         "leader": "John Tory",
         "demonym": "Torontonian",
-        "population": "2731571",
-        "area": "630.20",
-        "gdp":"0.405156"
+        "population": 2731571,
+        "area": 630.20,
+        "gdp": 0.405156
     },
     {
         "name": "Vaughan",
         "leader": "Maurizio Bevilacqua",
         "demonym": "",
-        "population": "306233",
-        "area": "273.56",
-        "gdp":"0.0206"
+        "population": 306233,
+        "area": 273.56,
+        "gdp": 0.0206
     },	
     {
         "name": "Waterloo",
         "leader": "Dave Jaworsky",
         "demonym": "Waterluvian",
-         "population": "104986",
-         "area": "64.02",
-         "gdp": "0.029273"
+         "population": 104986,
+         "area": 64.02,
+         "gdp": 0.029273
     },
     {
         "name": "Windsor",
         "leader": "Drew Dilkens",
         "demonym": "Windsorite",
-        "population": "217188",
-        "area": "146.38",
-        "gdp": "0.015649"	
+        "population": 217188,
+        "area": 146.38,
+        "gdp": 0.015649	
     }
 ]

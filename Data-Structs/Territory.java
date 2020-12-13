@@ -1,6 +1,4 @@
 import java.util.Comparator;
-import java.util.LinkedHashMap;
-import java.util.Map;
 /**
  * Abstract class that builds the structure of a territory(piece of land) and its methods
  *
@@ -11,7 +9,6 @@ import java.util.Map;
 public abstract class Territory{
     final public String name;
     private String leader;
-    private String language;
     private String demonym;
     private long population;
     private double gdp;
@@ -39,7 +36,7 @@ public abstract class Territory{
     /**
      * Getter function for leader field
      * 
-     * @return leader of the territory
+     * @return -leader of the territory
      */
     public String getLeader() {
         return this.leader;
@@ -48,34 +45,16 @@ public abstract class Territory{
     /**
      * Setter function for leader field
      * 
-     * @param leader
+     * @param -territory leader
      */
     public void setLeader(String leader) {
         this.leader = leader;
     }
 
     /**
-     * Getter function for leader field
-     * 
-     * @return -leader of the territory
-     */
-    public String getLanguage() {
-        return this.language;
-    }
-
-    /**
-     *Setter function for language field
-     *  
-     * @param language
-     */
-    public void setLanguage(String language) {
-        this.language = language;
-    }
-
-    /**
      * Getter function for demonym field
      * 
-     * @return -demonym of the territory
+     * @return -what the people are known as
      */
     public String getDemonym() {
         return this.demonym;
@@ -84,7 +63,7 @@ public abstract class Territory{
     /**
      *Setter function for demonym field
      *  
-     * @param demonym
+     * @param -name of the people who live in the territory
      */
     public void setDemonym(String demonym) {
         this.demonym = demonym;
@@ -93,7 +72,7 @@ public abstract class Territory{
     /**
      * Getter function for population field
      * 
-     * @return -population of the territory
+     * @return -population size of the territory
      */
     public long getPopulation() {
         return this.population;
@@ -101,7 +80,7 @@ public abstract class Territory{
     /**
      * Setter function for population field
      * 
-     * @param population
+     * @param -population size of the territory
      */
     public void setPopulation(long population) {
         this.population = population;
@@ -117,10 +96,9 @@ public abstract class Territory{
     }
     
     /**
-     * Getter function for GDP field
+     * Setter function for GDP field
      * 
-     * @param -The new GDP of the territory
-     * @return -GDP of the territory
+     * @param -GDP of the territory
      */
     public void setGdp(double gdp) {
         this.gdp = gdp;
@@ -136,10 +114,9 @@ public abstract class Territory{
     }
 
     /**
-     * Getter function for area field
+     * Setter function for area field
      * 
-     * @param -The new area of the territory
-     * @return -area of the territory
+     * @param -area of the territory
      */
     public void setArea(double area) {
         this.area = area;
@@ -155,28 +132,12 @@ public abstract class Territory{
      */
     abstract void useTax();
 
-    /**
-     * Gives us a human-readable representation of our territory object
-     * @return -String representation of our territory object
-     */
-    @Override
-    public String toString() {
-        Map<String,String> map= new LinkedHashMap<>();
-        map.put("Name", this.name);
-        map.put("Leader", this.leader);
-        map.put("Language", this.language);
-        map.put("Demonym", this.demonym);
-        map.put("Population", String.valueOf(this.population));
-        map.put("GDP", String.valueOf(this.gdp));
-        map.put("Area", String.valueOf(this.area));
-
-        return map.toString();
-    }
 }
 
 class ComparePopulation implements Comparator <Territory> {
     /**
-     * @param The two territories that want to be compared
+     * @param Territory to be compared to
+     * @param Territory that is compared to
      * @return +1 if the first territory's population is greater than the second territory's, -1 if flipped, and 0 if equal
      */
     public int compare(Territory t1, Territory t2){
@@ -193,7 +154,8 @@ class ComparePopulation implements Comparator <Territory> {
 }
 class CompareGDP implements Comparator <Territory> {
     /**
-     * @param The two territories that want to be compared
+     * @param Territory to be compared to
+     * @param Territory that is compared to
      * @return +1 if the first territory's gdp is greater than the second territory's, -1 if flipped, and 0 if equal
      */
     public int compare(Territory t1, Territory t2){
@@ -210,7 +172,8 @@ class CompareGDP implements Comparator <Territory> {
 }
 class CompareArea implements Comparator <Territory> {
      /**
-     * @param The two territories that want to be compared
+     * @param Territory to be compared to
+     * @param Territory that is compared to
      * @return +1 if the first territory's area is greater than the second territory's, -1 if flipped, and 0 if equal
      */
     public int compare(Territory t1, Territory t2){

@@ -1,0 +1,44 @@
+Generated Country objects 
+{Name=United States of America, Leader=Donald Trump, Language=English, Capital=null, Demonym=American, Code=USA, Continent=Northern America, Currency=USD, Population=323947000, GDP=20.807, Area=9629091.0}
+{Name=China, Leader=Xi Jinping, Language=Chinese, Capital=null, Demonym=Chinese, Code=CHN, Continent=Asia, Currency=CNY, Population=1377422166, GDP=24.2, Area=9640011.0}
+{Name=France, Leader=Emmanuel Macron, Language=French, Capital=null, Demonym=French, Code=FRA, Continent=Europe, Currency=EUR, Population=66710000, GDP=2.954, Area=640679.0}
+{Name=Canada, Leader=Justin Trudeau, Language=English, Capital={Name=Ottawa, Leader=Jim Watson, Demonym=Ottawan, Population=934243, GDP=0.080338, Area=2790.3}, Demonym=Canadian, Code=CAN, Continent=Northern America, Currency=CAD, Population=36155487, GDP=1.971, Area=9984670.0}
+{Name=Russian Federation, Leader=Vladimir Putin, Language=Russian, Capital=null, Demonym=Russian, Code=RUS, Continent=Europe, Currency=RUB, Population=146599183, GDP=4.135, Area=1.7124442E7}
+{Name=Saudi Arabia, Leader=Salman bin Abdulaziz Al Saud, Language=Arabic, Capital=null, Demonym=Saudi Arabian, Code=SAU, Continent=Asia, Currency=SAR, Population=32248200, GDP=1.924, Area=2149690.0}
+{Name=Iraq, Leader=Barham Salih, Language=Arabic, Capital=null, Demonym=Iraqi, Code=IRQ, Continent=Asia, Currency=IQD, Population=37883543, GDP=0.25007, Area=438317.0}
+{Name=Sudan, Leader=Abdalla Hamdok, Language=Arabic, Capital=null, Demonym=Sudanese, Code=SDN, Continent=Africa, Currency=SDG, Population=39598700, GDP=0.033903, Area=1886068.0}
+{Name=Mexico, Leader=Andrés Manuel López Obrador, Language=Spanish, Capital=null, Demonym=Mexican, Code=MEX, Continent=Northern America, Currency=MXN, Population=122273473, GDP=2.715, Area=1964375.0}
+----------------------------
+Sorting Country objects by population 
+China's population is 1377422166 
+United States of America's population is 323947000 
+Russian Federation's population is 146599183 
+Mexico's population is 122273473 
+France's population is 66710000 
+Sudan's population is 39598700 
+Iraq's population is 37883543 
+Canada's population is 36155487 
+Saudi Arabia's population is 32248200 
+----------------------------
+Sorting Country objects by area 
+Russian Federation's area is 1.7124442E7 
+Canada's area is 9984670.0 
+China's area is 9640011.0 
+United States of America's area is 9629091.0 
+Saudi Arabia's area is 2149690.0 
+Mexico's area is 1964375.0 
+Sudan's area is 1886068.0 
+France's area is 640679.0 
+Iraq's area is 438317.0 
+----------------------------
+Sorting Country objects by GDP(Trillion dollars) 
+China's GDP is 24.2 
+United States of America's GDP is 20.807 
+Russian Federation's GDP is 4.135 
+France's GDP is 2.954 
+Mexico's GDP is 2.715 
+Canada's GDP is 1.971 
+Saudi Arabia's GDP is 1.924 
+Iraq's GDP is 0.25007 
+Sudan's GDP is 0.033903 
+----------------------------

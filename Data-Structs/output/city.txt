@@ -1,0 +1,80 @@
+Generated City objects 
+{Name=Barrie, Leader=Jeff Lehman, Demonym=Barrian, Population=141434, GDP=0.007786, Area=99.04}
+{Name=Brampton, Leader=Patrick Brown, Demonym=Bramptonian, Population=593638, GDP=0.0345, Area=266.36}
+{Name=Burlington, Leader=Marianne Meed Ward, Demonym=Burlingtonian, Population=183314, GDP=0.0, Area=185.66}
+{Name=Guelph, Leader=Jeff Lehman, Demonym=Guelphite, Population=131794, GDP=0.0106, Area=87.22}
+{Name=Hamilton, Leader=Fred Eisenberger, Demonym=Hamiltonian, Population=536917, GDP=0.034673, Area=1117.29}
+{Name=Kingston, Leader=Bryan Paterson, Demonym=Kingstonian, Population=123798, GDP=0.008927, Area=451.19}
+{Name=North Bay, Leader=Al McDonald, Demonym=North Bayite, Population=51553, GDP=0.0, Area=319.11}
+{Name=London, Leader=Ed Holder, Demonym=Londoner, Population=383822, GDP=0.025536, Area=420.35}
+{Name=Markham, Leader=Frank Scarpitti, Demonym=Markhamite, Population=328966, GDP=0.0, Area=212.35}
+{Name=Mississauga, Leader=Bonnie Crombie, Demonym=Mississaugan, Population=721599, GDP=0.0, Area=292.43}
+{Name=Niagara Falls, Leader=Jim Diodati, Demonym=Niagarans, Population=88071, GDP=0.0, Area=209.73}
+{Name=Ottawa, Leader=Jim Watson, Demonym=Ottawan, Population=934243, GDP=0.080338, Area=2790.3}
+{Name=Pickering, Leader=David Ryan, Demonym=Pickeringite, Population=91771, GDP=0.0, Area=231.55}
+{Name=Thunder Bay, Leader=Bill Mauro, Demonym=Thunder Bayer, Population=107909, GDP=0.006148, Area=328.36}
+{Name=Toronto, Leader=John Tory, Demonym=Torontonian, Population=2731571, GDP=0.405156, Area=630.2}
+{Name=Vaughan, Leader=Maurizio Bevilacqua, Demonym=, Population=306233, GDP=0.0206, Area=273.56}
+{Name=Waterloo, Leader=Dave Jaworsky, Demonym=Waterluvian, Population=104986, GDP=0.029273, Area=64.02}
+{Name=Windsor, Leader=Drew Dilkens, Demonym=Windsorite, Population=217188, GDP=0.015649, Area=146.38}
+----------------------------
+Sorting City objects by population 
+Toronto's population is 2731571 
+Ottawa's population is 934243 
+Mississauga's population is 721599 
+Brampton's population is 593638 
+Hamilton's population is 536917 
+London's population is 383822 
+Markham's population is 328966 
+Vaughan's population is 306233 
+Windsor's population is 217188 
+Burlington's population is 183314 
+Barrie's population is 141434 
+Guelph's population is 131794 
+Kingston's population is 123798 
+Thunder Bay's population is 107909 
+Waterloo's population is 104986 
+Pickering's population is 91771 
+Niagara Falls's population is 88071 
+North Bay's population is 51553 
+----------------------------
+Sorting City objects by area 
+Ottawa's area is 2790.3 
+Hamilton's area is 1117.29 
+Toronto's area is 630.2 
+Kingston's area is 451.19 
+London's area is 420.35 
+Thunder Bay's area is 328.36 
+North Bay's area is 319.11 
+Mississauga's area is 292.43 
+Vaughan's area is 273.56 
+Brampton's area is 266.36 
+Pickering's area is 231.55 
+Markham's area is 212.35 
+Niagara Falls's area is 209.73 
+Burlington's area is 185.66 
+Windsor's area is 146.38 
+Barrie's area is 99.04 
+Guelph's area is 87.22 
+Waterloo's area is 64.02 
+----------------------------
+Sorting City objects by GDP(Trillion dollars) 
+Toronto's GDP is 0.405156 
+Ottawa's GDP is 0.080338 
+Hamilton's GDP is 0.034673 
+Brampton's GDP is 0.0345 
+Waterloo's GDP is 0.029273 
+London's GDP is 0.025536 
+Vaughan's GDP is 0.0206 
+Windsor's GDP is 0.015649 
+Guelph's GDP is 0.0106 
+Kingston's GDP is 0.008927 
+Barrie's GDP is 0.007786 
+Thunder Bay's GDP is 0.006148 
+North Bay's GDP is 0.0 
+Mississauga's GDP is 0.0 
+Pickering's GDP is 0.0 
+Markham's GDP is 0.0 
+Niagara Falls's GDP is 0.0 
+Burlington's GDP is 0.0 
+----------------------------

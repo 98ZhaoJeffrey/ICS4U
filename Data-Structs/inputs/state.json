@@ -5,9 +5,9 @@
         "leader": "Doug Ford",
         "capital":"Toronto",
         "demonym":"Ontarian",
-        "population":"13448494",
-        "gdp":"0.763276",
-        "area":"1076395"
+        "population":13448494,
+        "gdp":0.763276,
+        "area":1076395
     },
     {
         "name": "Quebec",
@@ -15,9 +15,9 @@
         "leader": "François Legault",
         "capital":"Quebec City",
         "demonym":"Quebecer",
-        "population":"8164361",
-        "gdp":"0.380972",
-        "area":"1542056"
+        "population":8164361,
+        "gdp":0.380972,
+        "area":1542056
     },
     {
         "name": "Alberta",
@@ -25,9 +25,9 @@
         "leader": "Jason Kenny",
         "capital": "Edmonton",
         "demonym":"Albertan",
-        "population":"4067175",
-        "gdp":"0.326433",
-        "area":"661848"
+        "population":4067175,
+        "gdp":0.326433,
+        "area":661848
         
     },
     {
@@ -36,9 +36,9 @@
         "leader": "John Horgan",
         "capital":"Vancouver",
         "demonym":"British Columbian",
-        "population":"4648055",
-        "gdp":"0.249981",
-        "area":"944735"
+        "population":4648055,
+        "gdp":0.249981,
+        "area":944735
     },
     {
         "name": "Manitoba",
@@ -46,9 +46,9 @@
         "leader": "Brian Pallister",
         "capital":"Winnipeg",
         "demonym":"Manitoban",
-        "population":"1278365",
-        "gdp":"0.065862",
-        "area":"649950"
+        "population":1278365,
+        "gdp":0.065862,
+        "area":649950
     },
     {
         "name": "Saskatchewan",
@@ -56,9 +56,9 @@
         "leader": "Scott Moe",
         "capital":"Regina",
         "demonym":"Saskatchewanian",
-        "population":"1098352",
-        "gdp":"0.079415",
-        "area":"651900"
+        "population":1098352,
+        "gdp":0.079415,
+        "area":651900
     },
     {
         "name": "Yukon",
@@ -66,9 +66,9 @@
         "leader": "Sandy Silver",
         "capital":"Whitehorse",
         "demonym":"Yukoner",
-        "population":"35874",
-        "gdp":"0.003089",
-        "area":"482443"
+        "population":35874,
+        "gdp":0.003089,
+        "area":482443
     },
     {
         "name": "Northwest Territories",
@@ -76,9 +76,9 @@
         "leader": "Caroline Cochrane",
         "capital":"Yellowknife",
         "demonym":"Northwest Terroitorian",
-        "population":"41786",
-        "gdp":"0.004856",
-        "area":"1345106"
+        "population":41786,
+        "gdp":0.004856,
+        "area":1345106
     },
     {
         "name": "Nunavut",
@@ -86,9 +86,9 @@
         "leader": "Joe Savikataaq",
         "capital":"Iqaluit",
         "demonym":"Nunvaummiut",
-        "population":"35944",
-        "gdp":"0.002846",
-        "area":"2038722"
+        "population":35944,
+        "gdp":0.002846,
+        "area":2038722
     },
     {
         "name": "Prince Edward Island",
@@ -96,9 +96,9 @@
         "leader": "Dennis King",
         "capital":"Charlottetown",
         "demonym":"Prince Edward Islander",
-        "population":"142907",
-        "gdp":"0.006652",
-        "area":"5660"
+        "population":142907,
+        "gdp":0.006652,
+        "area":5660
     },
     {
         "name": "New Brunswick",
@@ -106,9 +106,9 @@
         "leader": "Blaine Higgs",
         "capital":"Fredericton",
         "demonym":"New Brunswicker",
-        "population":"747101",
-        "gdp":"0.036008",
-        "area":"72907"
+        "population":747101,
+        "gdp":0.036008,
+        "area":72907
     },
     {
         "name": "Nova Scotia",
@@ -116,9 +116,9 @@
         "leader": "Stephen McNeil",
         "capital":"Halifax",
         "demonym":"Nova Scotian",
-        "population":"923598",
-        "gdp":"0.042715",
-        "area":"55284"
+        "population":923598,
+        "gdp":0.042715,
+        "area":55284
     },
     {
         "name": "Newfoundland and Labrador",
@@ -126,8 +126,8 @@
         "leader": "Andrew Furey",
         "capital":"St. John's",
         "demonym":"Newfoundlaner",
-        "population":"519716",
-        "gdp":"0.033624",
-        "area":"405720"
+        "population":519716,
+        "gdp":0.033624,
+        "area":405720
     }
 ]

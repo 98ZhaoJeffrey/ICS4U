@@ -1,0 +1,44 @@
+Generated State objects 
+{Name=Ontario, Leader=Doug Ford, Demonym=Ontarian, Code=CA-ON, Capital={Name=Toronto, Leader=John Tory, Demonym=Torontonian, Population=2731571, GDP=0.405156, Area=630.2}, Population=13448494, GDP=0.763276, Area=1076395.0}
+{Name=Quebec, Leader=François Legault, Demonym=Quebecer, Code=CA-QC, Capital=null, Population=8164361, GDP=0.380972, Area=1542056.0}
+{Name=Alberta, Leader=Jason Kenny, Demonym=Albertan, Code=CA-AB, Capital=null, Population=4067175, GDP=0.326433, Area=661848.0}
+{Name=Britsh Columiba, Leader=John Horgan, Demonym=British Columbian, Code=CA-BC, Capital=null, Population=4648055, GDP=0.249981, Area=944735.0}
+{Name=Manitoba, Leader=Brian Pallister, Demonym=Manitoban, Code=CA-MB, Capital=null, Population=1278365, GDP=0.065862, Area=649950.0}
+{Name=Saskatchewan, Leader=Scott Moe, Demonym=Saskatchewanian, Code=CA-SK, Capital=null, Population=1098352, GDP=0.079415, Area=651900.0}
+{Name=Yukon, Leader=Sandy Silver, Demonym=Yukoner, Code=CA-YK, Capital=null, Population=35874, GDP=0.003089, Area=482443.0}
+{Name=Northwest Territories, Leader=Caroline Cochrane, Demonym=Northwest Terroitorian, Code=CA-NT, Capital=null, Population=41786, GDP=0.004856, Area=1345106.0}
+{Name=Nunavut, Leader=Joe Savikataaq, Demonym=Nunvaummiut, Code=CA-NU, Capital=null, Population=35944, GDP=0.002846, Area=2038722.0}
+----------------------------
+Sorting State objects by population 
+Ontario's population is 13448494 
+Quebec's population is 8164361 
+Britsh Columiba's population is 4648055 
+Alberta's population is 4067175 
+Manitoba's population is 1278365 
+Saskatchewan's population is 1098352 
+Northwest Territories's population is 41786 
+Nunavut's population is 35944 
+Yukon's population is 35874 
+----------------------------
+Sorting State objects by area 
+Nunavut's area is 2038722.0 
+Quebec's area is 1542056.0 
+Northwest Territories's area is 1345106.0 
+Ontario's area is 1076395.0 
+Britsh Columiba's area is 944735.0 
+Alberta's area is 661848.0 
+Saskatchewan's area is 651900.0 
+Manitoba's area is 649950.0 
+Yukon's area is 482443.0 
+----------------------------
+Sorting State objects by GDP(Trillion dollars) 
+Ontario's GDP is 0.763276 
+Quebec's GDP is 0.380972 
+Alberta's GDP is 0.326433 
+Britsh Columiba's GDP is 0.249981 
+Saskatchewan's GDP is 0.079415 
+Manitoba's GDP is 0.065862 
+Northwest Territories's GDP is 0.004856 
+Yukon's GDP is 0.003089 
+Nunavut's GDP is 0.002846 
+----------------------------
