@@ -22,3 +22,7 @@ to create the Java classes, then run
 ```Java
 java Main
 ```
+
+## Sources
+
+All of my data was taken from Wikipedia
