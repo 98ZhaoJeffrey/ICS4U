@@ -10,4 +10,4 @@ The git repo can be found here: [INSERT LINK]
 
 ## Other work
 
-Other assignments done in the class (Emerging technology, Data Structures, and Algorithms) will be posted here as well.
+Other assignments done in the class (Emerging technology, Data Structures, Theoretical Computer Science, and Algorithms) will be posted here as well.
