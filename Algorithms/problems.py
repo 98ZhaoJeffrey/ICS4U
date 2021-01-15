@@ -35,7 +35,7 @@ def digitSumRecursive(number):
 
 def palindromeIterative(string):
     """
-    Finds the number of palindromes in our string
+    Finds the number of palindromes in our string iteratively
     
     Args:
         numnber(int)
@@ -43,6 +43,7 @@ def palindromeIterative(string):
     Returns:
         sum(int): The sum of the digits of our number 
     """
+    string = string.lower()
     length = len(string)
     number = 0
     for i in range(length):
@@ -53,15 +54,26 @@ def palindromeIterative(string):
     return number
 
 def palindromeRecursive(string):
+    """
+    Finds the number of palindromes in our string recursively
+    
+    Args:
+        numnber(int)
+    
+    Returns:
+        sum(int): The sum of the digits of our number 
+    """
     length = len(string)
     if string != string[::-1]:
         return 0
-    elif length == 1 or length == 0:
-        return 1
+    elif length <= 1:
+        return 0
     else:
         return 1 + palindromeRecursive(string[1:length-1])
 
-#print(digitSumIterative(126))
-#print(digitSumRecursive(126))
-print(palindromeIterative('kayakl'))
+
+
+print(digitSumIterative(126))
+print(digitSumRecursive(126))
+print(palindromeIterative('kayak'))
 print(palindromeRecursive('kayak'))
