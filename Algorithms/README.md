@@ -22,8 +22,7 @@ Took 0.001 seconds to run
 
 ## Questions
 
-#### Q: Complete a computational complexity analysis of each of your own sorting algorithms and also compare it to the built-in .sort() function 
-(figure out which one runs faster, why, when, etc.).
+#### Q: Complete a computational complexity analysis of each of your own sorting algorithms and also compare it to the built-in .sort() function (figure out which one runs faster, why, when, etc.).
 
 #### A: Python's bulit-in sort is a combination of merge sort and insertion sort. Merge sort has a worst case time complexity of O(nlogn), in comparasion to the other two sorts with a time complexity of n^2. If we took 100,000 objects, it would be almost 6000 times faster. For large arrays merge sort is signicantlly faster than insertion sort, but for small arrays, insertion sort can keep up. Tim sort solves this problem by using merge sort for larger arrays only. Now for the other two sorts, insertion sort has a best-case of O(n) when everything is sortedsince it is just a linear scan, where as bubble sort is always O(n^2). Nevertheless, insertion sort will always do fewer sorts than bubble because it checks if the elements are sorted at the moment instead of mindlessly comparing elements.
 
