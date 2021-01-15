@@ -13,7 +13,7 @@ def linearSearch(arr, target):
 
     """
     for index, element in enumerate(arr, start=0):
-        if element == target:
+        if element.calculatePriceSizeRatio() == target:
             return index
     return -1
 
@@ -34,9 +34,9 @@ def binarySearch(arr, target):
     right = len(arr)
     while right >= left:
         mid = (right + left) // 2
-        if arr[mid] == target:
+        if arr[mid].calculatePriceSizeRatio() == target:
             return mid
-        if arr[mid] > target:
+        if arr[mid].calculatePriceSizeRatio() > target:
             right = mid - 1
         else:
             left = mid + 1

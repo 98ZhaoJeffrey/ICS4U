@@ -14,7 +14,7 @@ def bubbleSort(arr):
         #loop through the whole array until we reach the point where the elements are sorted
         for j in range(0, size-i-1):
             #swap elements when they are out of order
-            if arr[j] > arr[j+1]:
+            if arr[j].calculatePriceSizeRatio() > arr[j+1].calculatePriceSizeRatio():
                 arr[j], arr[j+1] = arr[j+1], arr[j]
     return arr
 
@@ -35,7 +35,7 @@ def insertionSort(arr):
         #access to every element before it
         j = i-1
         #only run when the element to be sorted is less than some element in the array
-        while curr < arr[j] and j >= 0:
+        while curr.calculatePriceSizeRatio() < arr[j].calculatePriceSizeRatio() and j >= 0:
             arr[j+1] = arr[j]
             j-=1
         #move the array up one element
