@@ -1,4 +1,4 @@
-### Results from sorting and searching
+## Results from sorting and searching
 
 #### Bubble Sort: O(n^2)
 
@@ -20,7 +20,7 @@ Took 0.003 seconds to run
 
 Took 0.001 seconds to run
 
-### Questions
+## Questions
 
 #### Q: Complete a computational complexity analysis of each of your own sorting algorithms and also compare it to the built-in .sort() function 
 (figure out which one runs faster, why, when, etc.).
