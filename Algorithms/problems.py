@@ -38,7 +38,7 @@ def palindromeIterative(string):
     Finds the number of palindromes in our string iteratively
     
     Args:
-        numnber(int)
+        string(str)
     
     Returns:
         sum(int): The sum of the digits of our number 
@@ -53,27 +53,48 @@ def palindromeIterative(string):
                 number += 1
     return number
 
+def palindromeRecursiveHelper(string):
+    """
+    Finds the number of palindromes in our string recursively
+    
+    Args:
+        string(str) 
+    
+    Returns:
+        Array: Every possible substring of the string
+    """
+    length = len(string)
+    
+    if length == 0:
+        return [string]
+    total = []
+    total.append(string)
+    total += palindromeRecursiveHelper(string[1:])
+    total += palindromeRecursiveHelper(string[:-1])
+    return set(total)
+
 def palindromeRecursive(string):
     """
     Finds the number of palindromes in our string recursively
     
     Args:
-        numnber(int)
+        string(str)
     
     Returns:
-        sum(int): The sum of the digits of our number 
+        Int: The number of unique palindromes that are not single chars or empty strings
     """
-    length = len(string)
-    if string != string[::-1]:
-        return 0
-    elif length <= 1:
-        return 0
-    else:
-        return 1 + palindromeRecursive(string[1:length-1])
+    stringArray = palindromeRecursiveHelper(string)
+    palindromes = []
+    for String in stringArray:
+        if len(String) > 1 and  String == String[::-1]:
+            palindromes.append(String)
+    return len(set(palindromes))
+
+    
 
 
 
 print(digitSumIterative(126))
 print(digitSumRecursive(126))
-print(palindromeIterative('kayak'))
-print(palindromeRecursive('kayak'))
+print(palindromeIterative('kayaka'))
+print(palindromeRecursive('kayaka'))
